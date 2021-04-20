@@ -1,0 +1,174 @@
+li{
+    display: inline;
+}
+iframe{
+    width: 500px; 
+    height: 300px;
+}
+a.p{
+    text-decoration: none;
+}
+img{
+    width: 440px;
+    height: 300px;
+    float: center;
+}
+#nav {
+	padding: 0; margin: 0;
+	text-align: center;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+   }
+   body {
+    text-align: center;
+   }
+   .style {
+    width: 100%;
+    margin: 0;
+   }
+   header {
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+   }
+   .logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+   }
+   .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    color: #fff;
+    letter-spacing: 5px;
+   }
+   nav {
+    float: right;
+    line-height: 100px;
+   }
+   nav a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+   }
+   .baniere {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(./Muraille/Muraille4.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+   }
+   .baniere h2 {
+    padding-top: 8%;
+    font-size: 40px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #fff;
+   }
+   .baniere h3 {
+       color: #fff;
+   }
+   .contenu {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ebebeb;
+    height: 2550px;
+   }
+   .contenu h2 {
+    font-family: poppins;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+   }
+   .contenu p {
+    padding: 2% 0px;
+    font-family: poppins;
+    line-height: 30px;
+   }
+   .snk{
+    width: 50%;
+    height: 100px;
+}
+/*contenu de la page*/
+.Btexte{
+    top: 0;
+    bottom: 0;
+height:inherit;
+width: 48%;
+float: right;
+font-size: 26px;
+line-height: 2.1;
+letter-spacing: -0.019em;
+font-weight: 130;
+font-style: normal
+}
+.entete2{
+    height: 700px;
+    background-size: cover;
+}    
+h1{
+    padding: 350px 0px 100px 0px;
+    color: white;
+    font-size: 72px;
+    line-height: 2;
+    letter-spacing: 0.6em;
+    font-weight: 500;
+}
+h2{
+    padding: 100px 0px 100px 0px;
+    color: white;font-size: 50px;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+.contenu1{
+    height: 500px
+}
+.premier{
+    margin: 0px 100px;
+}
+.Bimage{
+    width: 48%;
+    height: inherit;
+    float: left;
+    background-size: cover;
+    background-image: url(./Muraille/La\ Grande\ Muraille\ de\ Chine.jpg);
+}
+.Img1{
+    height: 1100px;
+    background-size: cover;
+}
+.Img2{
+    height: 500px;
+    background-size: cover;
+}
+#Img1{
+    background-image: url(./Muraille/Muraille2.jpg);
+}
+#Img2{
+    background-image: url(./Muraille/Muraille3.jpg);
+}
+.texte{
+    padding: 10px 33px;
+    color: white;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
